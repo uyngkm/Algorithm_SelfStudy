@@ -33,7 +33,7 @@ public class Solution_0203_1954_달팽이숫자 {
 
 					// 방향 변경
 					if (d == 0) {// 우
-						if (x + dx[d] >= N || snail[y][x + dx[d]] != 0)
+						if (x + dx[d] >= N || snail[y][x + dx[d]] != 0) // !(x+dx[d]<N && snail[y][x+dx[d]])
 							d = 1;
 					} else if (d == 1) {// 하
 						if (y + dy[d] >= N || snail[y + dy[d]][x] != 0)
