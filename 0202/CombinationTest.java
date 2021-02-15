@@ -7,16 +7,16 @@ public class CombinationTest {
 
 	public static void main(String[] args) {
 		numbers = new int[R];
-		combination(0,1);
+		combination(0, 1);
 	}
 
 	static void combination(int cnt, int start) {
-		
-		if (cnt==R) {
+
+		if (cnt == R) {
 			System.out.println(Arrays.toString(numbers));
 			return;
-		} 
-		
+		}
+
 		for (int i = start; i <= N; i++) { // start부터 뽑는다.
 			numbers[cnt] = i;
 			combination(cnt + 1, i + 1);
