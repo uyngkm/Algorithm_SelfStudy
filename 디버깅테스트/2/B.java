@@ -7,10 +7,10 @@ public class B {
 	}
 
 //	// 해결책 1.
-//	private static B instance1= new B();
+//	private static B instance= new B();
 //	
 //	public static B getInstance() {
-//		return instance1;
+//		return instance;
 //	}
 //	// B를 인스턴스라고 한다.
 //	// 인스턴스를 어디서나 가지고 갈 수 있도록
